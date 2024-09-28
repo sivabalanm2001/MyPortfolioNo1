@@ -1,0 +1,30 @@
+const textConstants = {
+  login_text: 'Login screen',
+  email_text: 'Email ID',
+  password_text: 'Password',
+  email_vaild_text: 'Please enter the valid email',
+  password_vaild_text: 'Please enter the valid password',
+  login_button_text: 'Login',
+  new_user_text: 'New User?',
+  register_here_text: 'Register Here',
+  register_text: 'Register',
+  register_content_text: 'We will send a code to validate.',
+  register_placeholder_text: 'Register using your Email ID',
+  existing_user_text: 'Existing User?',
+  login_here_text: 'Login Here',
+  otp_content_text:
+    'Enter validation code send to your email. Code will expire in 5 mins.',
+  proceed_text: 'Proceed',
+  resend_text: 'Resend',
+  otp_not_received: 'Code not received?',
+  otp_error_text: 'Please enter the valid Otp',
+  categories_text: 'Categories',
+  deal_of_day_text: 'Deal of the day',
+  veiw_all_text: 'View All',
+  add_to_cart_text: 'Add to Cart',
+  seacrh_placeholder_text: 'Search',
+  my_cart_text: 'My Cart',
+  items_text: 'Items',
+};
+
+export default textConstants;

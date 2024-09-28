@@ -1,0 +1,22 @@
+[
+  {
+    "imageUrl": "../src/assets/back.png",
+    "headerText": "abc"
+  },
+  {
+    "imageUrl": "../src/assets/app_logo.png",
+    "headerText": "def"
+  },
+  {
+    "imageUrl": "../src/assets/app_logo.png",
+    "headerText": "ghi"
+  },
+  {
+    "imageUrl": "../src/assets/app_logo.png",
+    "headerText": "jkl"
+  },
+  {
+    "imageUrl": "../src/assets/app_logo.png",
+    "headerText": "mno"
+  }
+]

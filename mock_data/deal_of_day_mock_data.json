@@ -1,0 +1,37 @@
+[
+  {
+    "image": "../src/assets/back.png",
+    "productText": "product 1",
+    "farmText": "Farm 1",
+    "quantityText": "1 kg",
+    "priceText": "Rs. 100"
+  },
+  {
+    "image": "../src/assets/back.png",
+    "productText": "product 2",
+    "farmText": "Farm 2",
+    "quantityText": "2 kg",
+    "priceText": "Rs. 200"
+  },
+  {
+    "image": "../src/assets/back.png",
+    "productText": "product 3",
+    "farmText": "Farm 3",
+    "quantityText": "3 kg",
+    "priceText": "Rs. 300"
+  },
+  {
+    "image": "../src/assets/back.png",
+    "productText": "product 4",
+    "farmText": "Farm 4",
+    "quantityText": "4 kg",
+    "priceText": "Rs. 400"
+  },
+  {
+    "image": "../src/assets/back.png",
+    "productText": "product 5",
+    "farmText": "Farm 5",
+    "quantityText": "5 kg",
+    "priceText": "Rs. 500"
+  }
+]
