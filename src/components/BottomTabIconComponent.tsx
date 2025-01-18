@@ -10,7 +10,11 @@ const BottomTabIcon = (props: BottomTabIconProps) => {
   return (
     <Image
       source={props.source}
-      style={{tintColor: props.color, height: getHeight(5), width: getWidth(5)}}
+      style={{
+        tintColor: props.color,
+        height: getHeight(5),
+        width: getWidth(5),
+      }}
       resizeMode="contain"
     />
   );

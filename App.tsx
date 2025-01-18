@@ -26,17 +26,14 @@ const BottomTabs = () => {
       initialRouteName={routingPaths.home_screen}
       backBehavior="none">
       <BottomTab.Screen
-        name={routingPaths.home_screen}
-        component={HomeScreen}
+        name={routingPaths.category_screen}
+        component={MLScreen}
         options={{
           headerShown: false,
           tabBarLabel: 'Home',
+          tabBarShowLabel: false,
           tabBarActiveTintColor: colorConstants.primary_text_color,
           tabBarInactiveTintColor: colorConstants.primary_text_color,
-          tabBarLabelStyle: {
-            fontSize: 12,
-            fontWeight: '400',
-          },
           tabBarIcon: ({color}) => (
             <BottomTabIcon color={color} source={imageConstants.home_icon} />
           ),
@@ -50,27 +47,21 @@ const BottomTabs = () => {
           tabBarActiveTintColor: colorConstants.primary_text_color,
           tabBarInactiveTintColor: colorConstants.primary_text_color,
           tabBarLabel: 'Search',
-          tabBarLabelStyle: {
-            fontSize: 12,
-            fontWeight: '400',
-          },
+          tabBarShowLabel: false,
+
           tabBarIcon: ({color}) => (
             <BottomTabIcon color={color} source={imageConstants.search_icon} />
           ),
         }}
       />
       <BottomTab.Screen
-        name={routingPaths.ml_screen}
-        component={MLScreen}
+        name={routingPaths.home_screen}
+        component={HomeScreen}
         options={{
           headerShown: false,
           tabBarActiveTintColor: colorConstants.primary_text_color,
           tabBarInactiveTintColor: colorConstants.primary_text_color,
-          tabBarLabel: 'ML',
-          tabBarLabelStyle: {
-            fontSize: 12,
-            fontWeight: '400',
-          },
+          tabBarShowLabel: false,
           tabBarIcon: ({color}) => (
             <BottomTabIcon color={color} source={imageConstants.home_icon} />
           ),
@@ -81,13 +72,11 @@ const BottomTabs = () => {
         component={OrderScreen}
         options={{
           headerShown: false,
+          tabBarShowLabel: false,
           tabBarActiveTintColor: colorConstants.primary_text_color,
           tabBarInactiveTintColor: colorConstants.primary_text_color,
           tabBarLabel: 'Orders',
-          tabBarLabelStyle: {
-            fontSize: 12,
-            fontWeight: '400',
-          },
+
           tabBarIcon: ({color}) => (
             <BottomTabIcon color={color} source={imageConstants.cart_icon} />
           ),
@@ -98,13 +87,11 @@ const BottomTabs = () => {
         component={MyProfileScreen}
         options={{
           headerShown: false,
+          tabBarShowLabel: false,
           tabBarActiveTintColor: colorConstants.primary_text_color,
           tabBarInactiveTintColor: colorConstants.primary_text_color,
           tabBarLabel: 'My Profile',
-          tabBarLabelStyle: {
-            fontSize: 12,
-            fontWeight: '400',
-          },
+
           tabBarIcon: ({color}) => (
             <BottomTabIcon color={color} source={imageConstants.user_icon} />
           ),

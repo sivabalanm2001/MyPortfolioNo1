@@ -6,7 +6,7 @@ const routingPaths = {
   otp_verification_screen: 'OtpVerificationScreen',
   home_screen: 'HomeScreen',
   search_screen: 'SearchScreen',
-  ml_screen: 'MLScreen',
+  category_screen: 'CategoryScreen',
   order_screen: 'OrderScreen',
   my_profile_screen: 'MyProfileScreen',
   cart_screen: 'CartScreen',

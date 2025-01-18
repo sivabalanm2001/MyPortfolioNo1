@@ -18,7 +18,6 @@ const Styles = StyleSheet.create({
   cart_button_style: {
     height: getHeight(5),
     width: getWidth(10),
-    backgroundColor: 'red',
   },
   cart_text_style: {
     color: colorConstants.primary_button_text_color,

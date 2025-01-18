@@ -1,7 +1,7 @@
 import {Pressable, StyleSheet, Text, View} from 'react-native';
 import {getHeight} from '../utils/Utils';
 import colorConstants from '../constants/ColorConstants';
-import CartButtonComponent from './cartButtonComponent';
+import CartButtonComponent from './CartButtonComponent';
 
 const CartDetailsComponent = () => {
   return (
